@@ -19,7 +19,7 @@ services:
     container_name: pgadmin_container
     restart: always
     environment:
-      PGADMIN_DEFAULT_EMAIL: mnshuhailey7@gmail.com
+      PGADMIN_DEFAULT_EMAIL: pgadmin@gates.edu.my
       PGADMIN_DEFAULT_PASSWORD: secret123
       PGADMIN_LISTEN_PORT: 80
     ports:
